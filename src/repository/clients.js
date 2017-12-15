@@ -27,6 +27,7 @@ class ClientsRepository {
       }
 
       return payload
+
     } catch (err) {
       let payload = {
         status: 500,
@@ -53,6 +54,7 @@ class ClientsRepository {
       }
 
       return payload
+
     } catch (err) {
       let payload = {
         status: 500,
@@ -88,6 +90,7 @@ class ClientsRepository {
       }
 
       return payload
+      
     } catch (err) {
       let payload = {
         status: 500,

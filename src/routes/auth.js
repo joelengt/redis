@@ -10,4 +10,7 @@ router.route('/login')
 router.route('/signup')
   .post(authController.signup)
 
+router.route('/sample')
+	.get(authController.test)
+
 export default router
